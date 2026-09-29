@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember &amp; Oak – Artisan Coffee Roastery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="logo">Ember &amp; Oak</a>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#roasts">Roasts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="hero">
+      <div class="hero-text">
+        <h1>Awaken Your Senses</h1>
+        <p>Small‑batch, hand‑roasted coffee crafted with fire and oak.</p>
+        <a href="#roasts" class="btn-primary">Explore Our Roasts</a>
+      </div>
+      <div class="hero-visual">
+        <!-- Inline coffee cup SVG -->
+        <svg viewBox="0 0 64 64" aria-hidden="true" class="coffee-cup">
+          <path d="M48 12H16a2 2 0 0 0-2 2v30a10 10 0 0 0 20 0h2a10 10 0 0 0 20 0V14a2 2 0 0 0-2-2zM18 16h28v24a6 6 0 0 1-12 0h-4a6 6 0 0 1-12 0V16z" fill="currentColor"/>
+          <path d="M52 8h-4a2 2 0 0 0 0 4h4a2 2 0 0 0 0-4z" fill="currentColor"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <h2>Our Story</h2>
+      <p>At Ember &amp; Oak we believe coffee is an experience. Our beans travel from the highlands to our fire‑kissed roastery, where seasoned artisans coax out nuanced flavors.</p>
+    </section>
+
+    <section class="roasts container" id="roasts">
+      <h2>Our Roasts</h2>
+      <div class="roast-grid">
+        <article class="roast-card">
+          <h3>Morning Ember</h3>
+          <p>Bright, citrusy notes with a silky finish – perfect for sunrise.</p>
+        </article>
+        <article class="roast-card">
+          <h3>Midday Oak</h3>
+          <p>Balanced body, chocolate undertones, and a hint of toasted oak.</p>
+        </article>
+        <article class="roast-card">
+          <h3>Nightfall Dark</h3>
+          <p>Deep, smoky, and lingering – the ideal companion for late evenings.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <h2>Get In Touch</h2>
+      <p>Visit our roastery or drop us a line.</p>
+      <address>
+        123 Ember Lane<br>
+        Oakwood, CO 80202<br>
+        <a href="mailto:info@emberandoak.com">info@emberandoak.com</a>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> Ember &amp; Oak. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
